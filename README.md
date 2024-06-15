@@ -12,6 +12,20 @@ Este proyecto se centra en la extracción estructurada de información de cédul
    
 4. **Extracción de Información Estructurada:** Convierte los datos extraídos en un formato estructurado, facilitando su integración y análisis en sistemas de verificación de identidad y gestión de datos.
 
+### Ejemplo practico desarrollado
+Este ejemplo fue desarrollado con una cedula generica ficticia, puesto que se busca no exponer los datos de una persona real, pero el comportamiento del modelo es exactamente el mismo, dando resultados muy buenos en la deteccion de regiones. En el apartado del OCR se esta estudiando la posibilidad de incrementar un proceso de entrenamiento a un modelo preentrenado para buscar aumentar la fiabilidad de este apartado.
+
+A acontinuacion se indica la imagen original enviada al modelo sobre el cual se encuentran las regiones de interes detectadas
+![Imagen Original](Pruebas_random/Results/result_CI_identify.jpg)
+
+Una vez detectada dichas regiones se procede a un recorte de las mismas y a ser procesadas por el modelo encargado de identidicar las regiones de los campos donde se encuentra la informaacion de los campos a ser extraidos 
+![Imagenes procesada con el reconocimiento de campos](Pruebas_random/Results/result_Fields1.jpg)
+![Imagenes procesada con el reconocimiento de campos](Pruebas_random/Results/result_Fields2.jpg)
+
+De este ejemplo se obtuvieron los siguietes resultado, en el cual se puede observar los valores extraidos de cada uno de los campos, conjuntamente con las clase a la cual pertenecen y los valores de confianza del proceso.
+![Resultado final del proceso][Pruebas_random/Resultados Table.png]
+
+
 ### Aplicaciones Empresariales Potenciales
 
 Este proyecto tiene aplicaciones significativas en diversos ámbitos empresariales:
