@@ -23,7 +23,7 @@ Una vez detectada dichas regiones se procede a un recorte de las mismas y a ser 
 ![Imagenes procesada con el reconocimiento de campos](Pruebas_random/Results/result_Fields2.jpg)
 
 De este ejemplo se obtuvieron los siguietes resultado, en el cual se puede observar los valores extraidos de cada uno de los campos, conjuntamente con las clase a la cual pertenecen y los valores de confianza del proceso.
-![Resultado final del proceso][Pruebas_random/Resultados Table.png]
+![Resultado final del proceso][Pruebas_random/Resultados_Table.png]
 
 
 ### Aplicaciones Empresariales Potenciales
